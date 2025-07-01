@@ -1,8 +1,8 @@
 ---
 title: "Posts by Category"
-layout: Blog
+layout: posts
 permalink: /blog/
 author_profile: false
 sidebar:
-  nav: curriculum
+  nav: "curriculum"
 ---
