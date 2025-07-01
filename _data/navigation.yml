@@ -7,3 +7,25 @@ main:
     url: /tags/
   - title: "About"
     url: /about/
+
+curriculum:
+  - title: "Outline"
+    url: /curriculum/outline/
+  - title: "A1 Computer Fundamentals"
+    url: /curriculum/a1-computer-fundamentals/
+  - title: "A2 Networks"
+    url: /curriculum/a2-networks/
+  - title: "A3 Databases"
+    url: /curriculum/a3-databases/
+  - title: "A4 Machine Learning"
+    url: /curriculum/a4-machine-learning/
+  - title: "B1 Computational Thinking"
+    url: /curriculum/b1-computational-thinking/
+  - title: "B2 Programming"
+    url: /curriculum/b2-programming/
+  - title: "B3 Object Oriented Programming"
+    url: /curriculum/b3-object-oriented-programming/
+  - title: "B4 Abstract Data Types"
+    url: /curriculum/b4-abstract-data-types/
+  - title: "Internal Assessment"
+    url: /curriculum/internal-assessment/

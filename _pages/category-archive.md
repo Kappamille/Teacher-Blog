@@ -1,6 +1,8 @@
 ---
 title: "Posts by Category"
-layout: categories
-permalink: /categories/
-author_profile: true
+layout: Blog
+permalink: /blog/
+author_profile: false
+sidebar:
+  nav: curriculum
 ---
