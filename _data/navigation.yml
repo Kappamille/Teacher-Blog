@@ -10,7 +10,7 @@ main:
 
 curriculum:
   - title: "IB DP Computer Science"
-    url: /curriculum/
+    #    url: /curriculum/
     children:
       - title: "Yearly overview"
         url: /curriculum/yearly-overview/
