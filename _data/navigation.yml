@@ -1,0 +1,103 @@
+main:
+  - title: "Ressources"
+    url: /ressources/
+  - title: "Blog"
+    url: /blog/
+  - title: "Tags"
+    url: /tags/
+  - title: "About"
+    url: /about/
+
+curriculum:
+  - title: "IB DP Computer Science"
+    #    url: /curriculum/
+    children:
+      - title: "Yearly overview"
+        url: /curriculum/yearly-overview/
+  - title: "A1 Computer Fundamentals"
+    url: /curriculum/a1/
+    children:
+      - title: "A1.1 Computer hardware and operation"
+        url: /curriculum/a1/a1-1/
+      - title: "A1.2 Data representation and computer logic"
+        url: /curriculum/a1/a1-2/
+      - title: "A1.3 Operating systems and control systems"
+        url: /curriculum/a1/a1-3/
+      - title: "A1.4 Translation (HL only)"
+        url: /curriculum/a1/a1-4/
+  - title: "A2 Networks"
+    url: /curriculum/a2/
+    children:
+      - title: "A2.1 Network fundamentals"
+        url: /curriculum/a2/a2-1/
+      - title: "A2.2 Network architecture"
+        url: /curriculum/a2/a2-2/
+      - title: "A2.3 Data transmissions"
+        url: /curriculum/a2/a2-3/
+      - title: "A2.4 Network security"
+        url: /curriculum/a2/a2-4/
+  - title: "A3 Databases"
+    url: /curriculum/a3/
+    children:
+      - title: "A3.1 Database fundamentals"
+        url: /curriculum/a3/a3-1/
+      - title: "A3.2 Database design"
+        url: /curriculum/a3/a3-2/
+      - title: "A3.3 Database programming"
+        url: /curriculum/a3/a3-3/
+      - title: "A3.4 Alternative databases and data warehouses (HL only)"
+        url: /curriculum/a3/a3-4/
+  - title: "A4 Machine Learning"
+    url: /curriculum/a4/
+    children:
+      - title: "A4.1 Machine learning fundamentals"
+        url: /curriculum/a4/a4-1/
+      - title: "A4.2 Data preprocessing (HL only)"
+        url: /curriculum/a4/a4-2/
+      - title: "A4.3 Machine learning approaches (HL only)"
+        url: /curriculum/a4/a4-3/
+      - title: "A4.4 Ethical considerations"
+        url: /curriculum/a4/a4-4/
+  - title: "B1 Computational Thinking"
+    url: /curriculum/b1/
+    children:
+      - title: "B1.1 Approaches to computational thinking"
+        url: /curriculum/b1/b1-1/
+  - title: "B2 Programming"
+    url: /curriculum/b2/
+    children:
+      - title: "B2.1 Programming fundamentals"
+        url: /curriculum/b2/b2-1/
+      - title: "B2.2 Data structures"
+        url: /curriculum/b2/b2-2/
+      - title: "B2.3 Programming constructs"
+        url: /curriculum/b2/b2-3/
+      - title: "B2.4 Programming algorithms"
+        url: /curriculum/b2/b2-4/
+      - title: "B2.5 File processing"
+        url: /curriculum/b2/b2-5/
+  - title: "B3 Object-Oriented Programming"
+    url: /curriculum/b3/
+    children:
+      - title: "B3.1 Fundamentals of OOP for a single class"
+        url: /curriculum/b3/b3-1/
+      - title: "B3.2 Fundamentals of OOP for multiple classes (HL only)"
+        url: /curriculum/b3/b3-2/
+  - title: "B4 Abstract Data Types (HL only)"
+    url: /curriculum/b4/
+    children:
+      - title: "B4.1 Fundamentals of ADTs"
+        url: /curriculum/b4/b4-1/
+  - title: "Internal Assessment"
+    url: /curriculum/ia/
+    children:
+      - title: "Criterion A - Problem specification"
+        url: /curriculum/ia/c-a/
+      - title: "Criterion B - Planning"
+        url: /curriculum/ia/c-b/
+      - title: "Criterion C - System overview"
+        url: /curriculum/ia/c-c/
+      - title: "Criterion D - Development"
+        url: /curriculum/ia/c-d/
+      - title: "Criterion E - Evaluation"
+        url: /curriculum/ia/c-e/
