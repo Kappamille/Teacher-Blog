@@ -25,23 +25,23 @@ speed, memory usage, flexibility
 ### Lesson: Arrays and for loops
 
 You can download or view the lesson PDF here:  
-[📄 Arrays and for loops (PDF)](/assets/pdfs/Arrays_and_for_loops.pdf)
+[📄 Arrays and for loops (PDF)]({{ site.baseurl }}/assets/pdfs/Arrays_and_for_loops.pdf)
 
 Or view it directly below:
 
-<iframe src="/assets/pdfs/Arrays_and_for_loops.pdf" width="100%" height="600px">
+<iframe src="{{ site.baseurl }}/assets/pdfs/Arrays_and_for_loops.pdf" width="100%" height="600px">
   This browser does not support PDFs. Please download the file: 
-  <a href="/assets/pdfs/Arrays_and_for_loops.pdf">Download PDF</a>.
+  <a href="{{ site.baseurl }}/assets/pdfs/Arrays_and_for_loops.pdf">Download PDF</a>.
 </iframe>
 
 ### Lesson: While loops and collections
 
 You can download or view the lesson PDF here:  
-[📄 While loops and collecttions (PDF)](/assets/pdfs/While_Loops_and_Collections.pdf)
+[📄 While loops and collecttions (PDF)]({{ site.baseurl }}/assets/pdfs/While_Loops_and_Collections.pdf)
 
 Or view it directly below:
 
-<iframe src="/assets/pdfs/While_Loops_and_Collections.pdf" width="100%" height="600px">
+<iframe src="{{ site.baseurl }}/assets/pdfs/While_Loops_and_Collections.pdf" width="100%" height="600px">
   This browser does not support PDFs. Please download the file: 
-  <a href="/assets/pdfs/While_Loops_and_Collections.pdf">Download PDF</a>.
+  <a href="{{ site.baseurl }}/assets/pdfs/While_Loops_and_Collections.pdf">Download PDF</a>.
 </iframe>

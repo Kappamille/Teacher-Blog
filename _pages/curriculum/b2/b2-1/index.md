@@ -15,7 +15,7 @@ sidebar:
 ### Lesson: Variables and Types
 
 You can download or view the lesson PDF here:  
-[📄 Variables and Types (PDF)](/assets/pdfs/Variables_and_Types.pdf)
+[📄 Variables and Types (PDF)]({{ site.baseurl }}/assets/pdfs/Variables_and_Types.pdf)
 
 Or view it directly below:
 
@@ -32,11 +32,11 @@ the ability to perform various manipulations, such as altering, concatenating or
 ### Lesson: Strings and Packages
 
 You can download or view the lesson PDF here:  
-[📄 Strings and Packages (PDF)](/assets/pdfs/Strings_and_Packages.pdf)
+[📄 Strings and Packages (PDF)]({{ site.baseurl }}/assets/pdfs/Strings_and_Packages.pdf)
 
 Or view it directly below:
 
-<iframe src="/assets/pdfs/Strings_and_Packages.pdf" width="100%" height="600px">
+<iframe src="{{ site.baseurl }}/assets/pdfs/Strings_and_Packages.pdf" width="100%" height="600px">
   This browser does not support PDFs. Please download the file: 
-  <a href="/assets/pdfs/Strings_and_Packages.pdf">Download PDF</a>.
+  <a href="{{ site.baseurl }}/assets/pdfs/Strings_and_Packages.pdf">Download PDF</a>.
 </iframe>
