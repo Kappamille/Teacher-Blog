@@ -19,9 +19,9 @@ You can download or view the lesson PDF here:
 
 Or view it directly below:
 
-<iframe src="/assets/pdfs/Variables_and_Types.pdf" width="100%" height="600px">
+<iframe src="{{ site.baseurl }}/assets/pdfs/Variables_and_Types.pdf" width="100%" height="600px">
   This browser does not support PDFs. Please download the file: 
-  <a href="/assets/pdfs/Variables_and_Types.pdf">Download PDF</a>.
+  <a href="{{ site.baseurl }}/assets/pdfs/Variables_and_Types.pdf">Download PDF</a>.
 </iframe>
 
 ## B2.1.2 Construct programs that can extract and manipulate substrings.
