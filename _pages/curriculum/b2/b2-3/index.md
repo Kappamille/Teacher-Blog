@@ -31,3 +31,22 @@ Or view it directly below:
   This browser does not support PDFs. Please download the file: 
   <a href="/assets/pdfs/Boolean_Logic.pdf">Download PDF</a>.
 </iframe>
+
+## B2.3.3 Construct programs that utilize looping structures to perform repeated actions.
+
+• Types of loops, including counted loops and conditional loops, and appropriate use of each type
+
+• Conditional statements within loops, using Boolean and/or relational operators to govern the loop’s
+execution
+
+### Lesson: Arrays and for loops
+
+You can download or view the lesson PDF here:  
+[📄 Arrays and for loops (PDF)](/assets/pdfs/Arrays_and_for_loops.pdf)
+
+Or view it directly below:
+
+<iframe src="/assets/pdfs/Arrays_and_for_loops.pdf" width="100%" height="600px">
+  This browser does not support PDFs. Please download the file: 
+  <a href="/assets/pdfs/Arrays_and_for_loops.pdf">Download PDF</a>.
+</iframe>
