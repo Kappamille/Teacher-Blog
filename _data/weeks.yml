@@ -1,0 +1,47 @@
+2025-03-10:
+  week: 1
+  classes:
+    - class: SL
+      class_number: 1
+      topic: Introduction
+      skills: ""
+      pdfs: []
+      homework: " Install IntelliJ Edu + Intall Java JDK + take a look at the computer science guide"
+
+    - class: SL
+      class_number: 2
+      topic: Variables and Types
+      skills: "B2.1.1"
+      pdfs: "{{ site.baseurl }}/curriculum/b2/b2-1/#variables-and-types"
+      homework: "Finish coding exercises + revisions"
+
+    - class: HL
+      class_number: 3
+      topic: Oxidative phosphorylation
+      skills: "8.2"
+      pdfs: "/assets/pdfs/oxidative-phosphorylation.pdf"
+      homework: "Quiz next class"
+
+2025-03-17:
+  week: 2
+  classes:
+    - class: SL
+      class_number: 1
+      topic: Calvin Cycle
+      skills: "2.9, 8.3"
+      pdfs: "/assets/pdfs/calvin-cycle.pdf"
+      homework: "Worksheet p. 12–13"
+
+    - class: SL
+      class_number: 2
+      topic: Enzyme inhibitors
+      skills: "2.5"
+      pdfs: "/assets/pdfs/inhibitors.pdf"
+      homework: "Prepare for enzyme quiz"
+
+    - class: HL
+      class_number: 3
+      topic: Chemiosmosis deep dive
+      skills: "8.2"
+      pdfs: "/assets/pdfs/chemiosmosis.pdf"
+      homework: "Summaries of key steps"
