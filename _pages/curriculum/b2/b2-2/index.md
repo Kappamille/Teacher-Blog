@@ -45,3 +45,15 @@ Or view it directly below:
   This browser does not support PDFs. Please download the file: 
   <a href="{{ site.baseurl }}/assets/pdfs/While_Loops_and_Collections.pdf">Download PDF</a>.
 </iframe>
+
+### Lesson: Nested Loops and Control Statements
+
+You can download or view the lesson PDF here:  
+[📄 While loops and collecttions (PDF)]({{ site.baseurl }}/assets/pdfs/Nested_Loops_Control_Statements.pdf)
+
+Or view it directly below:
+
+<iframe src="{{ site.baseurl }}/assets/pdfs/Nested_Loops_Control_Statements.pdf" width="100%" height="600px">
+  This browser does not support PDFs. Please download the file: 
+  <a href="{{ site.baseurl }}/assets/pdfs/Nested_Loops_Control_Statements.pdf">Download PDF</a>.
+</iframe>
