@@ -62,3 +62,23 @@ Or view it directly below:
   This browser does not support PDFs. Please download the file: 
   <a href="{{ site.baseurl }}/assets/pdfs/While_Loops_and_Collections.pdf">Download PDF</a>.
 </iframe>
+
+## B2.3.4 Construct functions and modularization.
+
+• Functions to define reusable blocks of code with different inputs
+
+• Modularization to create well-structured, reusable and maintainable code
+
+• The principles of scope (local versus global)
+
+• The benefits of code modularization, applying this concept to various programming scenarios
+
+You can download or view the lesson PDF here:  
+[📄 Methods (PDF)]({{ site.baseurl }}/assets/pdfs/Methods.pdf)
+
+Or view it directly below:
+
+<iframe src="{{ site.baseurl }}/assets/pdfs/Methods.pdf" width="100%" height="600px">
+  This browser does not support PDFs. Please download the file: 
+  <a href="{{ site.baseurl }}/assets/pdfs/Methods.pdf">Download PDF</a>.
+</iframe>

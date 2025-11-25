@@ -49,7 +49,7 @@ Or view it directly below:
 ### Lesson: Nested Loops and Control Statements
 
 You can download or view the lesson PDF here:  
-[📄 While loops and collecttions (PDF)]({{ site.baseurl }}/assets/pdfs/Nested_Loops_Control_Statements.pdf)
+[📄 Nested Loops and Control Statements (PDF)]({{ site.baseurl }}/assets/pdfs/Nested_Loops_Control_Statements.pdf)
 
 Or view it directly below:
 
