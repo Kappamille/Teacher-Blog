@@ -12,6 +12,8 @@ sidebar:
 
 • Data types: Boolean value, char, decimal, integer, string
 
+<a id="variables-and-types"></a>
+
 ### Lesson: Variables and Types
 
 You can download or view the lesson PDF here:  
