@@ -17,7 +17,7 @@ sidebar:
 | Class | Topic | Skills | Links | Homework |
 | ----- | ----- | ------ | ----- | -------- |
 {% for entry in week_data.classes -%}
-| {{ entry.class }} | {{ entry.topic }} | {{ entry.skills }} | {% if entry.pdfs and entry.pdfs.size > 0 %}{% for pdf in entry.pdfs %}[PDF]({{ pdf }}){% unless forloop.last %}<br>{% endunless %}{% endfor %}{% else %}-{% endif %} | {{ entry.homework }} |
+| {{ entry.class }} | {{ entry.topic }} | {{ entry.skills }} | {% if entry.pdfs and entry.pdfs.size > 0 %}{% for pdf in entry.pdfs %}[PDF]({{ pdf | relative_url }}){% unless forloop.last %}<br>{% endunless %}{% endfor %}{% else %}-{% endif %} | {{ entry.homework }} |
 {% endfor %}
 {% endcapture %}
 

@@ -20,6 +20,8 @@ conditions
 • Selection structures with or without Boolean operators (AND, OR, NOT) and/or relational operators (<,
 <=, >, >=, ==, !=) to control program flow effectively
 
+<a id="boolean-logic"></a>
+
 ### Lesson: Boolean Logic
 
 You can download or view the lesson PDF here:  
@@ -38,6 +40,8 @@ Or view it directly below:
 
 • Conditional statements within loops, using Boolean and/or relational operators to govern the loop’s
 execution
+
+<a id="arrays-and-for-loops"></a>
 
 ### Lesson: Arrays and for loops
 

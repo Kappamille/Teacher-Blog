@@ -26,6 +26,8 @@ Or view it directly below:
   <a href="{{ site.baseurl }}/assets/pdfs/Variables_and_Types.pdf">Download PDF</a>.
 </iframe>
 
+<a id="strings-and-packages"></a>
+
 ## B2.1.2 Construct programs that can extract and manipulate substrings.
 
 • Writing of programs that accurately identify and extract substrings from given strings, demonstrating
