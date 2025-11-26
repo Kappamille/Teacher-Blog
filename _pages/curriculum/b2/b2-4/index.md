@@ -44,6 +44,10 @@ sorting algorithms
 
 • Simple, non-branching recursive algorithms in programming only
 
+<a id="recursion"></a>
+
+### Lesson: Recursion
+
 You can download or view the lesson PDF here:  
 [📄 Recursion (PDF)]({{ site.baseurl }}/assets/pdfs/Recursion.pdf)
 
