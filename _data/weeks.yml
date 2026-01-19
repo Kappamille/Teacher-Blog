@@ -34,3 +34,24 @@
       skills: "B2.2.2, B2.3.3, B2.3.1"
       pdfs: "curriculum/b2/b2-3/#arrays-and-for-loops"
       homework: "Finish coding exercises + revisions"
+
+2025-09-15:
+  week: 3
+  classes:
+    - class: HL
+      topic: Clean Code - Meaningful Names
+      skills: ""
+      pdfs: "https://dl.acm.org/doi/10.5555/1388398"
+      homework: ""
+
+    - class: SL
+      topic: While loops and collections
+      skills: "B2.2.2, B2.3.3, B2.3.1"
+      pdfs: "curriculum/b2/b2-2/#while-loops-and-collections"
+      homework: "Finish coding exercises + revisions"
+
+    - class: SL
+      topic: Arrays and for loops
+      skills: "B2.2.2, B2.3.3, B2.3.1"
+      pdfs: "curriculum/b2/b2-3/#arrays-and-for-loops"
+      homework: "Finish coding exercises + revisions"

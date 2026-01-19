@@ -1,0 +1,43 @@
+<figure class="img-wrap {{ include.align | default: center }}">
+  <img
+    src="{{ site.baseurl }}{{ include.src }}"
+    alt="{{ include.alt }}"
+    style="max-width: {{ include.width | default: 100% }};
+    border: 1px solid black;"
+  />
+  <figcaption
+    style="
+      display: block; /* ensures caption uses full figure width */
+      width: 100%;
+      margin-top: 0.1em;
+      font-size: 0.7em;
+      color: #666;
+      text-align: center;
+    "
+  >
+    {{ include.caption }}
+  </figcaption>
+</figure>
+
+<!--<figure
+  style="float: {{ include.float }}; margin: 1em auto; {{ include.width | default: '40%' }};"
+>
+  <img
+    src="{{ site.baseurl }}{{ include.src }}"
+    alt="{{ include.alt }}"
+    style="display: block; width: 100%; height: auto; border: 1px solid #ccc"
+  />
+  <figcaption
+    style="
+      display: block; /* ensures caption uses full figure width */
+      width: 100%;
+      margin-top: 0.1em;
+      font-size: 0.9em;
+      color: #666;
+      text-align: center;
+    "
+  >
+    {{ include.caption }}
+  </figcaption>
+</figure>
+-->

@@ -22,6 +22,8 @@ speed, memory usage, flexibility
 
 • Add, remove and traverse elements in a dynamic list
 
+<a id="arrays-and-for-loops"></a>
+
 ### Lesson: Arrays and for loops
 
 You can download or view the lesson PDF here:  
@@ -34,6 +36,8 @@ Or view it directly below:
   <a href="{{ site.baseurl }}/assets/pdfs/Arrays_and_for_loops.pdf">Download PDF</a>.
 </iframe>
 
+<a id="while-loops-and-collections"></a>
+
 ### Lesson: While loops and collections
 
 You can download or view the lesson PDF here:  
@@ -45,6 +49,8 @@ Or view it directly below:
   This browser does not support PDFs. Please download the file: 
   <a href="{{ site.baseurl }}/assets/pdfs/While_Loops_and_Collections.pdf">Download PDF</a>.
 </iframe>
+
+<a id="nested-loops-and-control-statements"></a>
 
 ### Lesson: Nested Loops and Control Statements
 
