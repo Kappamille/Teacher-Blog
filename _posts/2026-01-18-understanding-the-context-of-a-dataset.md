@@ -9,11 +9,11 @@ tags:
   - Data context
 ---
 
-When teaching Data Visualisation I always start with an introduction about the data context. Students are often very eager to get to the coding aspect of their data visualisation, they want to produce pretty graphs and find the most ground breaking insights from the data set. This often leads them to overlook and sprend a very little time analyzing the source of their data. Without understanding the context of your data your visualisations and insight can quickly become useless, misguided and biased. Let's see an example of this in this blogpost.
+When teaching Data Visualisation I always start with an introduction about the data context. Students are often very eager to get to the coding aspect of their data visualisation, they want to produce pretty graphs and find the most ground breaking insights from the data set. This often leads them to overlook and spend very little time analyzing the source of their data. Without understanding the context of your data your visualisations and insight can quickly become useless, misguided and biased. Let's look at an example together.
 
 #### But first, what do I mean by data context ?
 
-Data context are informations surrounding the collection of the data. I often use the following guiding questions checklist so students can ensure they have the proper information.
+Data context are informations surrounding the collection of the data. I often use the following questions as a checklist so students can ensure they have the proper information before startting their data exploration.
 
 - What data was collected ? Do we have a proper description of what each column means ?
 - When was the data collected ?
@@ -23,9 +23,9 @@ Data context are informations surrounding the collection of the data. I often us
 - What is the licence of the data set ?
 - How much data was collected ?
 
-In class I assign the following dataset, found on Kaggle, about [air quality and water pollution](https://www.kaggle.com/datasets/cityapiio/world-cities-air-quality-and-water-polution). I choose this dataset pruposefully as the context of the data is possible to find but requires some amount of searching (and beacause the dataset only has 5 columns which makes the subsequent data analysis less daunting).
+In class I assign the following dataset, found on Kaggle, about [air quality and water pollution](https://www.kaggle.com/datasets/cityapiio/world-cities-air-quality-and-water-polution). I choose this dataset purposefully as the context of the data is possible to find but requires some amount of searching (and beacause the dataset only has 5 columns which makes the subsequent data analysis less daunting).
 
-In their assignments, most students often stick to the information given on Kaggle. They tell me that "air quality varies from 0 (bad quality) to 100 (top good quality) and water pollution varies from 0 (no pollution) to 100 (extreme pollution". They also tell me that "the data was collected as part of the City API project data". These informations are found in the the "About Dataset" section in Kaggle.
+In their assignments, most students often stick to the information given on Kaggle. They tell me that "air quality varies from 0 (bad quality) to 100 (top good quality) and water pollution varies from 0 (no pollution) to 100 (extreme pollution)".
 {% include image.html
    src="/assets/images/blogposts/about-dataset.png"
    alt="Kaggle Author CityAPI-IO"
@@ -33,7 +33,7 @@ In their assignments, most students often stick to the information given on Kagg
    align="center"
    width="100%" %}
 
-They would continue by saying that "CityAPI-IO" is the author of the dataset.
+They would continue by saying that "the data was collected as part of the City API project" and that "CityAPI-IO" is the author of the dataset.
 {% include image.html
    src="/assets/images/blogposts/author.png"
    alt="Kaggle Author CityAPI-IO"
@@ -41,9 +41,25 @@ They would continue by saying that "CityAPI-IO" is the author of the dataset.
    align="center"
    width="35%" %}
 
-And that the licence of the data is "CC0: Public Domain".
+That the licence of the data is "CC0: Public Domain".
 {% include image.html
    src="/assets/images/blogposts/license.png"
+   alt="Kaggle license screenshot"
+   caption="screenshot from Kaggle"
+   align="center"
+   width="30%" %}
+
+That the data is from is 2020.
+{% include image.html
+   src="/assets/images/blogposts/title.png"
+   alt="Kaggle license screenshot"
+   caption="screenshot from Kaggle"
+   align="center"
+   width="100%" %}
+
+And, finally, that there are 3796 data points
+{% include image.html
+   src="/assets/images/blogposts/city-column.png"
    alt="Kaggle license screenshot"
    caption="screenshot from Kaggle"
    align="center"
@@ -52,10 +68,11 @@ And that the licence of the data is "CC0: Public Domain".
 However if we take a few more seconds to think about these informations our internal bell should ring.
 **What does it actually mean to have an air quality of 100 or a water pollution of 0?**
 **Who or what is CityAPI-IO ?**
-**Is it realistic that this dataset would have a public domain license ?**
+**Is it realistic that this dataset would have a public domain license ?** **How can I be sure that the data is from 2020?**
 
-Let start by cliking on the link in the description of the dataset, it links to https://city-api.io/ which ... is not an attributed website. Mhh, let's see if a google search for city api io provides more information... It bring us back to the Kaggle account city-api.io.
-Let's change our strategy, the description mentions that the data was initially taken from Numbeo. The website https://www.numbeo.com/ exists and in the menu under "pollution" we find that thay do seem to have information related to air quality and water pollution. We find that Numbeo is a platform where users can self report their perception about their quality of life. We find that they have an Air Pollution index and a Water Quality index for several cities in the world that are between 0 and 100. This seems to match the pattern of our data on kaggle and thus seems to be our data source.
+Let start by verifying the link in the description of the dataset, it links to [https://city-api.io/](https://city-api.io/) which ... is not an attributed website. We continue searching and see if a google search for city api io provides more information. Unfirtunately ae only find the websites that point back to the Kaggle account city-api.io.
+
+Let's change our strategy, the description mentions that the data was initially taken from Numbeo. After a google search we find that the website [https://www.numbeo.com/](https://www.numbeo.com/) does exists. In the menu under "pollution" we find that they have information related to air quality and water pollution. Numbeo seems to be a platform where users can self report their perception about their quality of life. We find that they have an Air Pollution index and a Water Quality index for several cities in the world that are between 0 and 100. This seems to match the pattern of our data on Kaggle and thus seems to be our data source.
 
 With further research on their website we find that the numercial data originally stems from a questionnaire. The two questions related to air quality and water pollution are the following:
 {% include image.html
@@ -65,19 +82,19 @@ With further research on their website we find that the numercial data originall
    align="center"
    width="100%" %}
 
-This raises the question as to how the conversion between the question and the number was done. When clicking on the information icon for the pollution index we find the information we're searching for.
-We find that "Individual [Survey] responses are assigned a numerical value between -2 (indicating a strongly negative perception) and +2 (indicating a strongly positive perception).
-Survey results are then scaled from 0 to 100 for easier interpretation and comparison. Our current index, updated continuously, is compiled from data within the past 5 years. We carefully select cities for inclusion in the index based on a minimum number of contributors to ensure statistical significance. Our current index, updated continuously, is compiled from data within the past 5 years." [https://www.numbeo.com/pollution/indices_explained.jsp](https://www.numbeo.com/pollution/indices_explained.jsp)
+This raises the question as to how the categorical answers from the questions were converted to a numerical index. When clicking on the information icon for the pollution index we find the information we're searching for.
+We find that _"Individual [Survey] responses are assigned a numerical value between -2 (indicating a strongly negative perception) and +2 (indicating a strongly positive perception).
+Survey results are then scaled from 0 to 100 for easier interpretation and comparison. Our current index, updated continuously, is compiled from data within the past 5 years. We carefully select cities for inclusion in the index based on a minimum number of contributors to ensure statistical significance."_ [https://www.numbeo.com/pollution/indices_explained.jsp](https://www.numbeo.com/pollution/indices_explained.jsp)
 
-This means that a an answer "Very Satisfied" would be translated to 100, "Neutral" to 50 and "Very Dissatisfied" to 0.
-This is a crucial information, as values of 100 and 0 are not considered outliers.
-However their "minim[al] number of contributors to ensure statistical significance" is unclear. During our data exploration we'll find that the minimal number is probably only 1 person. (see other article).
+This means that a an answer _"Very Satisfied"_ would be translated to 100, _"Neutral"_ to 50 and _"Very Dissatisfied"_ to 0.
+Although this method of conversion in questionable in itself, this is a crucial information, as values of 100 and 0 should not be considered outliers.
+However their _"minim[al] number of contributors to ensure statistical significance"_ is unclear. During our data exploration we'll find that the minimal number is probably only 1 person as we have many values that exactly equal to 0, 25, 50, 75 and 100.
 
-Which leaves us with our question regarding the license of the data. In the [terms of use](https://www.numbeo.com/common/terms_of_use.jsp) of the website we find that the use of Numbeo data for personal or academic is freely but attribution is necessary, so the licence is not public domain (which does not need attribution).
+Let's continue with our question regarding the license of the data. In the [terms of use](https://www.numbeo.com/common/terms_of_use.jsp) of the website we find that the use of Numbeo data for personal or academic is free but attribution is necessary. So the licence is not public domain as metionned on Kaggle (as public domain does not need attribution).
 
-Another important note in the terms of use is "Please be advised that nothing found here has necessarily been reviewed by people with the expertise required to provide you with complete, accurate or reliable information. Use our content at your own risk".
+Another important note in the terms of use is _"Please be advised that nothing found here has necessarily been reviewed by people with the expertise required to provide you with complete, accurate or reliable information. Use our content at your own risk"_. This is crucial as the air quality and water pollution indexes have absolutelty no links to scientific measures of air quality (such as particulate matter PM10 and PM2.5, nitrogen dioxide NO2, sulfur dioxide SO2, ozone O3 and carbon monoxide CO) or water quality (such as microbial, chemical and radicological presences).
 
-Finally, there is a slight inconsistency in the date of the data collection. In the title of the kaggle dataset, the year 2020 is pointed out. However in the date of the dataset the day 18/10/2021 is presented. Since the date of the 18/10/2021 seems to be more precise, kaggle indicates that this dataset was published 4 years ago, and that the author on kaggle isn't the official numbeo account, I would tend to assume that the date of data scraping from the numbeo website was 18/10/2021.
+In the title of the kaggle dataset, the year 2020 is pointed out. However in the name of the dataset the day 18/10/2021 is presented. Since the date of the 18/10/2021 seems to be more precise and kaggle indicates that this dataset was published 4 years ago plus that the author on kaggle isn't the official numbeo account, I would tend to assume that the data was scraped from the numbeo website on 18/10/2021. Futhermore the Numbeo wesbite mentions that _"[indexes are] compiled from data within the past 5 years"_ Which would mean that our data has been collected between 18/10/2016 and 18/10/2021.
 
 {% include image.html
    src="/assets/images/blogposts/dates.png"
@@ -86,23 +103,38 @@ Finally, there is a slight inconsistency in the date of the data collection. In 
    align="center"
    width="100%" %}
 
+Finally, checking that there are 3796 data points is pretty straightfoward as kaggle already has some integrated tool to check for the uniqueness of values. But while searching for information on the Numbeo website we find that they already have a map thay showcases the cities for which values were entered. We can already gain a glace at the distribution of data and see that countires and regions across the world are not represented equally.
+{% include image.html
+   src="/assets/images/blogposts/map.png"
+   alt="numbeo questions"
+   caption=""
+   align="center"
+   width="100%" %}
+
 With these information we can try and draft a more thorough understanding of our dataset:
 
-- **What data was collected ?** Users self reported on how satisfied they are with their quality of the air and how concerned they are with the water pollution of their city. Categorical answers were transleted to a numerical value
-  "Very Satisfied" or "Very Concerned" to 100
-  "Somewhat Satisfied" or "Somewhat Concerned" to 75
-  "Neutral" to 50
-  "Somewhat Dissatisfied" or "Somewhat Unconcerned" to 25
-  "Very Dissatisfied" or "Not Concerned" at all to 0
-  We assume that the category "Not Sure" was excluded from the dataset.
+- **What data was collected ?** Users self reported on how satisfied they are with the quality of the air and how concerned they are with the water pollution of their city. Categorical answers were transleted to a numerical value:
+  - "Very Satisfied" or "Very Concerned" to 100
+  - "Somewhat Satisfied" or "Somewhat Concerned" to 75
+  - "Neutral" to 50
+  - "Somewhat Dissatisfied" or "Somewhat Unconcerned" to 25
+  - "Very Dissatisfied" or "Not Concerned" at all to 0
+  - We assume that the category "Not Sure" was excluded from the dataset.
 - **Do we have a proper description of what each column means ?**
-  - The Air quality and water quality columns are the average of the user reporting. The number of participants for each city is unknown.
-  - The city, region and country columns correspond to the geographical details of the city for which the questions were answered.
+  - The `AirQuality` and `WaterQuality` columns are the average of the user reporting. The number of participants for each city is unknown.
+  - The `City`, `Region` and `Country` columns correspond to the geographical details of the city for which the questions were answered.
 - **When was the data collected ?** The data was likely scraped on the 18/10/2021 from the Numbeo website and is comprised of data from the past 5 years.
 - **Who collected the data ?** Numbeo provided the infrastructure for data collection and users filled in their forms based on voluntary participation. The accuracy of the content was not reviewed.
-- **For which purpose was the data collected ?** The data is collected for information purposes and to provide a paid license with more extensive data.
-- **How was the data collected ?** The data was collected through an online forms, though self reporting from users in two single choice questions using a likert scale.
-- **What is the licence of the data set ?** The license is free to use for personal anc acadmic use, granted attribution. Users can purchase a commercial license.
-- **How much data was collected ?** 3796 unique cities are present in the dataset.
+- **For which purpose was the data collected ?** The data is collected for information purposes to _"explore, share, and compare information"_ but also to provide users with the option to pay for a license with more extensive data.
+- **How was the data collected ?** The data was collected through an online form, though self reporting from users in two single choice questions using a likert scale.
+- **What is the licence of the data set ?** The license is free to use for personal and acadmic use, granted attribution. Users can also purchase a commercial license.
+- **How much data was collected ?** 3796 unique cities are present in the dataset. The dataset is moslty comprised of cities from Europe, North America and India. Data is very sparse for Africa, the Middle East and South America.
+
+The initial misguided data context from a stduent might lead them to produce a graph like the following.
+< TO DO add bar chart of the average air quality in france and average water pollution in france >
+
+Whereas with a precise understanding of our data context we might produce a more accurate graph
+< TO DO add box plot of the distribution of the perception of air quality and water quality in france >
+< the data context allows us to choose a more precise chart type, highlight in the title that we talk about the perception of water and not a scientific measure, show outliers, and show what we don't know in the description of the data>
 
 To conclude, I think it's essential to highlight that rigorous data analysis starts before writing any line of code. I would roughly advise to spend 10% to 20% of your time to check the context of your data rigorously, even if the source of the data is trusted.
