@@ -44,3 +44,31 @@ Or view it directly below:
   This browser does not support PDFs. Please download the file: 
   <a href="{{ site.baseurl }}/assets/pdfs/Strings_and_Packages.pdf">Download PDF</a>.
 </iframe>
+
+## B2.1.3 Describe how programs use common exception handling techniques.
+
+• Potential points of failure in a program must include unexpected inputs, resource unavailability, logic
+errors.
+
+• The role of exception handling in developing programs
+
+• Exception handling constructs that effectively manage errors must include try/catch in Java, and try/except in Python, along with the finally block.
+
+See lesson below
+
+## B2.1.4 Construct and use common debugging techniques.
+
+• Debugging techniques may include trace tables, breakpoint debugging, print statements and step-by-
+step code execution.
+
+### Lesson: Errors and Testing
+
+You can download or view the lesson PDF here:  
+[📄 Errors and Testing (PDF)]({{ site.baseurl }}/assets/pdfs/Errors_and_Testing.pdf)
+
+Or view it directly below:
+
+<iframe src="{{ site.baseurl }}/assets/pdfs/Errors_and_Testing.pdf" width="100%" height="600px">
+  This browser does not support PDFs. Please download the file: 
+  <a href="{{ site.baseurl }}/assets/pdfs/Errors_and_Testing.pdf">Download PDF</a>.
+</iframe>

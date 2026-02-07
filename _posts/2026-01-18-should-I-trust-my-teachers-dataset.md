@@ -13,7 +13,7 @@ When teaching Data Visualisation I always start with an introduction about the d
 
 #### But first, what do I mean by data context ?
 
-Data context are informations surrounding the collection of the data. I often use the following questions as a checklist so students can ensure they have the proper information before startting their data exploration.
+Data context are informations surrounding the collection of the data. I often use the following questions as a checklist so students can ensure they have the proper information before starting their data exploration.
 
 - What data was collected ? Do we have a proper description of what each column means ?
 - When was the data collected ?
@@ -23,7 +23,7 @@ Data context are informations surrounding the collection of the data. I often us
 - What is the licence of the data set ?
 - How much data was collected ?
 
-In class I assign the following dataset, found on Kaggle, about [air quality and water pollution](https://www.kaggle.com/datasets/cityapiio/world-cities-air-quality-and-water-polution). I choose this dataset purposefully as the context of the data is possible to find but requires some amount of searching and beacause the dataset is small with only has 5 columns .
+In class I assign the following dataset, found on Kaggle, about [air quality and water pollution](https://www.kaggle.com/datasets/cityapiio/world-cities-air-quality-and-water-polution). I choose this dataset purposefully as the context of the data is possible to find but requires some amount of searching and because the dataset is small with only 5 columns .
 
 In their assignments, most students often stick to the information given on Kaggle. They would write a very short introduction and directly start with their data exploration. They tell me that "air quality varies from 0 (bad quality) to 100 (top good quality) and water pollution varies from 0 (no pollution) to 100 (extreme pollution)".
 {% include image.html
@@ -70,7 +70,7 @@ However if we take a few more seconds to think about these informations our inte
 **Who or what is CityAPI-IO ?**
 **Is it realistic that this dataset would have a public domain license ?** **How can I be sure that the data is from 2020?**
 
-Let start by verifying the link in the description of the dataset, it links to [https://city-api.io/](https://city-api.io/) which ... is not an attributed website. We continue searching and see if a google search for city api io provides more information. Unfortunately we only find the websites that point back to the Kaggle account city-api.io.
+Let's start by verifying the link in the description of the dataset, it links to [https://city-api.io/](https://city-api.io/) which ... is not an attributed website. We continue searching and see if a google search for city api io provides more information. Unfortunately we only find the websites that point back to the Kaggle account city-api.io.
 
 Let's change our strategy, the description mentions that the data was initially taken from Numbeo. After a google search we find that the website [https://www.numbeo.com/](https://www.numbeo.com/) does exists. In the menu under "pollution" we find that they have information related to air quality and water pollution. Numbeo seems to be a platform where users can self report their perception about their quality of life. We find that they have an Air Pollution index and a Water Quality index for several cities in the world that are between 0 and 100. This seems to match the pattern of our data on Kaggle and thus seems to be our data source.
 
@@ -113,7 +113,7 @@ In the title of the Kaggle dataset, the year 2020 is pointed out. However in the
    align="center"
    width="100%" %}
 
-Finally, checking that there are 3796 data points is pretty straightfoward as Kaggle already has some integrated tool to check for the uniqueness of values. But while searching for information on the Numbeo website we found a map thay showcasing the values for all cities. We can already gain a glace at the distribution of data and see that countires and regions across the world are not represented equally.
+Finally, checking that there are 3796 data points is pretty straightfoward as Kaggle already has some integrated tool to check for the uniqueness of values. But while searching for information on the Numbeo website we found a map thay showcasing the values for all cities. We can already gain a glance at the distribution of data and see that countires and regions across the world are not represented equally.
 {% include image.html
    src="/assets/images/blogposts/should-I-trust-my-teachers-dataset/map.png"
    alt="numbeo map of data points"
@@ -144,4 +144,4 @@ So, **should I trust the dataset given by the teacher ?** No. every dataset need
 
 And finally, **should I use the air quality and water pollution dataset from Kaggle ?** With what we found out about the dataset, most likely not. The data is not very informative because of how it's been transformed from a qualitative answer to a quantitative answer and the data is probably on the Kaggle platform without Numbeo's awareness. If the students had spend a little more time checking the data context of their dataset, they should have told me that the dataset is not good enough to perform an analysis on it !
 
-Code for the data visualisation can be found [here] (https://github.com/Kappamille/Teacher-Blog/assets/images/blogposts/should-I-trust-my-teachers-dataset/should-I-use-my-teachers-dataset-dataviz.ipynb)
+Code for the data visualisation can be found [here](https://github.com/Kappamille/Teacher-Blog/assets/images/blogposts/should-I-trust-my-teachers-dataset/should-I-use-my-teachers-dataset-dataviz.ipynb)
