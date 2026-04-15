@@ -12,5 +12,4 @@ index_style: cards
 
 Welcome to My Teacher Blog!
 
-Here is some custom text, introduction, or whatever content you want. Feel free to explore my resources and blog posts
-below.
+This is an ongoing project I started in September 2025 ! Feel free to explore my teaching resources, in the left menu bar, and blog posts, below.
